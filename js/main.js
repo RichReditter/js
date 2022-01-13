@@ -1,46 +1,65 @@
-// let a, b, c, P,S;
-// a = +prompt('Введите первый катет');
-// b = +prompt('Введите второй катет');
+// Задача 1
+// let a=1;
+// while (a<=20){
+//     console.log(a);
+//     a++;
+// }
 
-// P = (sqrt(a**2 + b**2 ) + a + b);
-// c = P - (a + b);
-// S = (a/2) * b;
+// Задача 2
 
-// alert('Площадь равна = '+ S, 'Периметр равен = '+ P, 'Гипотенуза равна = '+ c)
+// let a = +prompt('Введите первое число');
+// let b = +prompt('Введите второе число');
 
+// if ( a > 30 || b > 30 ){
+//     alert('yes')
+// }
+// else{
+//     alert('no')
+// }
 
+// Задача 3
 
-
-// let first, second, third;
-// first = +prompt('')
-// second = +prompt('')
-// third = +prompt('')
-
-// if (first > second){
-//     if ( first > third){
-//         alert('Первое число ('+ first +') самое большое')
+// let a = +prompt('первое');
+// let b = +prompt('второе');
+// let c = +prompt('третье');
+// if (a>10 && b>10 && c>10){
+//     if(a % 3 == 0 && b % 3 == 0){
+//         alert('yes')
 //     }
 //     else{
-//         alert('Третье число ('+ third +') самое большое')
+//         alert('no')
 //     }
 // }
 // else{
-//     if (second > third){
-//         alert('Второе число ('+ second +') самое большое')
-//     }
-//     else{
-//         alert('Третье число ('+ third +') самое большое')
-//     }
+//     alert('no')
 // }
 
 
+//Задача 4
 
-let even;
-even = +prompt('')
+// let n = +prompt('последнее число')
 
-if (!(even % 2)){
-    alert('Число четное')
-}
-else{
-    alert('Число нечетное')
-}
+// for (let i = 1, i < n, i++){
+//     console.log(i)
+// }
+
+
+// Задача 6
+
+// let n = +prompt('Введите длину основания треугольника')
+
+// for (let i = 1; i <=n; i++){
+//     for (let j = 1; j < i+1; j++)
+//     console.log('*');
+//     console.log('\n');
+// }
+
+
+// Задача 7
+
+  
+// let arr = [];
+// for (let i = 0; i < 9; i++) {
+//     var matrix = getRandom();
+//     arr.push(matrix);
+//     document.write(arr[i]);
