@@ -37,21 +37,22 @@
 
 //Задача 4
 
-// let n = +prompt('последнее число')
-
-// for (let i = 1, i < n, i++){
-//     console.log(i)
-// }
+let n = +prompt('последнее число')
+let s = 0;
+for (let i = 1; i < n; i++){
+    s += i + n;
+    
+}
+console.log(s)
 
 
 // Задача 6
 
 // let n = +prompt('Введите длину основания треугольника')
-
+// let s ='';
 // for (let i = 1; i <=n; i++){
-//     for (let j = 1; j < i+1; j++)
-//     console.log('*');
-//     console.log('\n');
+//     s += 'A';
+//     console.log(s);
 // }
 
 
