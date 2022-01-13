@@ -37,13 +37,13 @@
 
 //Задача 4
 
-let n = +prompt('последнее число')
-let s = 0;
-for (let i = 1; i < n; i++){
-    s += i + n;
+// let n = +prompt('последнее число')
+// let s = 0;
+// for (let i = 1; i < n; i++){
+//     s += i + n;
     
-}
-console.log(s)
+// }
+// console.log(s)
 
 
 // Задача 6
@@ -64,3 +64,67 @@ console.log(s)
 //     var matrix = getRandom();
 //     arr.push(matrix);
 //     document.write(arr[i]);
+
+// let a = 'abcdefg'
+// last = a.slice(-1)
+// console.log(last)
+// first = a.slice(0,1)
+// console.log(first)
+// if( a.length % 2 != 0){
+//     let n = (a.length - 1) / 2;
+//     console.log(a[n])
+
+// }
+  
+
+// let a = prompt();
+// if(a.startsWith('abc')){
+//     n = a.replace('abc','www')
+//     console.log(n)
+// }
+// else{
+//     console.log( a + 'zzz')
+// }
+
+
+// Дана строка. Определите общее количество символов '+' и '-' в ней. А так же сколько таких символов, после которых следует цифра ноль.
+a = ('abc0-+');
+let n = 0;
+let p = 0;
+
+for (let i=0; i<a.length; i++){
+    if (a[i] == '+'){
+        n++
+        
+    }
+    if (a[i] == '-'){
+        p++
+        
+    }
+    
+    if (a[i] == '0'){
+        k = a.indexOf('0')
+        k1 = a.slice(0,k)
+        k2 = k1.slice(-1)
+        console.log(k2)
+    }
+    else{
+        console.log('нулей нет')
+    }
+}
+console.log(p+n)
+
+
+
+
+// все методы
+// s.length
+// s.startsWith()
+// s.endsWith()
+// s.replace()
+// s.replaceAll()
+// s.trim()
+// s.slice()
+// s.indexOf()
+// s.icludes()
+// padEnd, padStart
