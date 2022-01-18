@@ -171,6 +171,67 @@ while (i != '@'){
 
 }
 
+//Найти наибольший элемент массива
+
+let arr = [1, 743, 35772 ,647, 7, 0 , 5737754, -4];
+let max = arr.pop();
+let min = max;
+for (let i = 0 ;i < arr.length ; i++){
+    if( max < arr[i]){
+        max = arr[i]
+    }
+    if ( min > arr[i]){
+        min = arr[i]
+    }
+}
+sum = min + max;
+console.log('Максимум равен '+max)
+console.log('минимум равен '+min)
+console.log('А сумма их равна '+ sum)
+
+
+// Найдите произведение элементов массива с нечетными номерами.
+let arr1 = [];
+for (let j = 1; j < 100; j+=2){
+        arr1.push(j)
+}
+let b = 1;
+for (let k = 0; k < arr1.length ; k++){
+    b *= arr1[k];
+}
+console.log(arr1)
+console.log(b)
+
+// В данной строке найти сумму цифр
+
+// let str1 = 'asdfadad567474642hffh6';
+// atr = str1.split('')
+// let sum1 = 0;
+// for (let l = 0; l < atr.length; l++){
+//     if(Number.IsInteger(+atr[l])){
+//         sum1 += +atr[l]
+//     }
+// }
+// console.log(sum1)
+
+// Преобразовать первые буквы городов в Заглавные
+
+// let cities = 'минск москва брест';
+// cities1 = cities[0].toUpperCase() + cities.slice(1);
+// for (let o = 0; o < cities.length; o++){
+//     if ( cities1[o] === ' '){
+//         cities1[o+1].toUpperCase() + cities1.slice(o+2)
+//     }
+// }
+// console.log(cities1)
+
+
+let x = 'hello world';
+z = x.capitalize()
+console.log(z)
+
+
+
 
 // все методы
 // s.length
